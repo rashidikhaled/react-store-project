@@ -1,7 +1,8 @@
 import React from "react";
+import { useProducts } from "../context/ProductContext";
 
 const ProductsPage = () => {
-  console.log("first");
+  const products = useProducts();
   return <div>ProductsPage1</div>;
 };
 
